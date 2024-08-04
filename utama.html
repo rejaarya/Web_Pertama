@@ -1,90 +1,79 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seraphim Timeworks</title>
+    <title>Product Page</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-            color: #333;
-            overflow-x: hidden;
-        }
-        .hero-section {
-            background-image: url('logo.png'); /* Ganti dengan gambar latar belakang */
-            background-size: cover;
-            background-position: center;
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: relative;
-            overflow: hidden;
-        }
-        .hero-section::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.4); /* Semi-transparan overlay */
-        }
-        .hero-content {
-            position: relative;
-            text-align: center;
-            color: #fff;
-            z-index: 1;
-        }
-        .hero-logo {
-            max-width: 250px; /* Sesuaikan dengan ukuran logo */
-            margin-bottom: 20px;
-            animation: fadeIn 2s ease-in;
-        }
-        .hero-title {
-            font-size: 4rem;
-            margin: 0;
-            font-weight: bold;
-            animation: fadeIn 2s 0.5s ease-in;
-        }
-        .hero-subtitle {
-            font-size: 1.8rem;
-            margin-top: 10px;
-            animation: fadeIn 2s 1s ease-in;
-        }
-        .hero-button {
-            display: inline-block;
-            padding: 15px 30px;
-            margin-top: 20px;
-            font-size: 1.2rem;
-            color: #fff;
-            background-color: #f39c12; /* Warna tombol */
-            text-decoration: none;
-            border-radius: 30px; /* Bulatkan tombol */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            transition: background-color 0.3s, transform 0.3s;
-        }
-        .hero-button:hover {
-            background-color: #e67e22;
-            transform: translateY(-5px);
-        }
-        @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
-        }
-    </style>
 </head>
-<body>
-    <header>
-        <div class="hero-section">
-            <div class="hero-content">
-                <h1 class="hero-title">Welcome to Seraphim Timeworks</h1>
-                <p class="hero-subtitle">Where Time Meets Serenity</p>
-                <a href="index.html" class="hero-button">Shop Now</a>
+<body bgcolor="black">
+    <header><marquee>SERAPHIM TIMEWORKS</marquee></header>
+    <nav><a href="profile.html">PROFIL PEMBUAT</a></nav>
+    <div class="container">
+        <aside class="left">
+            <h2>Tentang Kami</h2>
+            <p>Kami adalah penyedia jam tangan berkualitas tinggi terkemuka, menggabungkan keanggunan dengan fungsionalitas. Misi kami adalah memberi Anda yang terbaik dalam teknologi dan desain penunjuk waktu.</p>
+            <br>
+            <hr>
+            <br>
+            <h2>Follow Us</h2>
+            <div class="social-media">
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" style="width: 50px;" alt="Facebook"></a>
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/5969/5969020.png" style="width: 50px;" alt="Twitter"></a>
+                <a href="#"><img src="https://cdn-icons-png.flaticon.com/128/5968/5968764.png" style="width: 50px;" alt="Instagram"></a>
             </div>
-        </div>
-    </header>
+        </aside>
+        <main class="content">
+            <center>
+                <h1>Products/Services</h1>
+            </center>
+            <div class="product-card">
+                <img src="jam1.jpg" alt="Product 1" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">NAVIFORCE</h2>
+                    <p class="product-description">Experience the perfect blend of style and functionality with the NAVIFORCE watch. Featuring a sleek design and multifunctional capabilities, this watch is built to keep you on time and in style. Ideal for the modern man who values precision and aesthetics.</p>
+                    <button class="btn" onclick="location.href='transaction.html'">Buy/Order</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="jam2.jpg" alt="Product 2" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">OLEVS</h2>
+                    <p class="product-description">The OLEVS watch combines luxury and precision in one sophisticated package. With its intricate design and superior craftsmanship, this watch stands out in any crowd. Perfect for those who appreciate elegance and high-quality performance.</p>
+                    <button class="btn" onclick="location.href='transaction.html'">Buy/Order</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="jam3.jpg" alt="Product 3" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">FERRAO</h2>
+                    <p class="product-description">Introducing the FERRAO watch, a symbol of strength and durability. Crafted with a rugged design and reliable features, this watch is made for adventurers and go-getters. Whether you're in the boardroom or the great outdoors, FERRAO keeps you ahead of the game.</p>
+                    <button class="btn" onclick="location.href='transaction.html'">Buy/Order</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="jam4.jpg" alt="Product 4" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">ORLANDO</h2>
+                    <p class="product-description">The ORLANDO watch is a testament to timeless style and modern functionality. Its sleek design and advanced features make it a must-have accessory for any occasion. Embrace the fusion of tradition and innovation with ORLANDO.</p>
+                    <button class="btn" onclick="location.href='transaction.html'">Buy/Order</button>
+                </div>
+            </div>
+            <div class="product-card">
+                <img src="jam5.jpg" alt="Product 5" class="product-image">
+                <div class="product-info">
+                    <h2 class="product-title">QUICK SILVER</h2>
+                    <p class="product-description">Quick Silver offers a perfect blend of durability and style. Built for those who lead an active lifestyle, this watch features robust construction and precise timekeeping. Whether you're hitting the gym or heading to a meeting, Quick Silver is your ultimate companion.</p>
+                    <button class="btn" onclick="location.href='transaction.html'">Buy/Order</button>
+                </div>
+            </div>
+        </main>
+        <aside class="right">
+                    <h2>Kontak</h2>
+                    <p>Email: <a href="mailto:email@contoh.com">seraphimtime@gmail.com</a></p>
+        </aside>
+    </div>
+    <footer><marquee>SERAPHIM TIMEWORKS</marquee></footer>
 </body>
 </html>
